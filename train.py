@@ -120,7 +120,7 @@ model_wv.save(arguments.w2v_model)
 
 X_train, Y_train = data_to_train(tokenized)
 
-model_xgb = XGBClassifierWrap(n_estimators=1, max_depth=1, learning_rate=0.5)
+model_xgb = XGBClassifierWrap(n_estimators=5, max_depth=6, learning_rate=0.5)
 model_xgb.fit(X_train, Y_train)
 model_xgb.save(arguments.xgb_model)
 
