@@ -107,15 +107,7 @@ def data_to_train(tokens):
     return np.array(X), np.array(Y)
 
 
-'''
-prestuplenie = download('data/prestup.txt')
-idiot = download('data/idiot.txt')
-igrok = download('data/igrok.txt')
-kreml = download('data/kreml.txt')
-all_txt = prestuplenie + idiot + igrok + kreml
-'''
-
-tokenized = tokenizer(lines)  # lines??
+tokenized = tokenizer(lines)
 
 dictionary = Dictionary(tokenized)
 dic = dictionary.token2id
