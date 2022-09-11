@@ -17,5 +17,5 @@
 - В конце модель ставит три точки, потому что ей есть что еще сказать...
 
 Usage:
-- ```train.py --input_dir texts```
-- ```generate.py --prefix "your text" --length n ```
+- ```python train.py --input_dir texts```
+- ```python generate.py --prefix "your text" --length n ```
