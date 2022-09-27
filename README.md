@@ -19,3 +19,6 @@
 Usage:
 - ```python train.py --input_dir texts```
 - ```python generate.py --prefix "your text" --length n ```
+
+
+### UPD: passed
